@@ -1,0 +1,99 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "005b3286-5edd-4887-ae32-7f326285f368": {
+        "id": "005b3286-5edd-4887-ae32-7f326285f368",
+        "parent": null,
+        "name": "1230_FinalSanity.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "1230_FinalSanity.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "1230FinalSanity"
+        },
+        "triggers": [],
+        "lastUpdated": 1609319245504
+      }
+    },
+    "openFiles": [
+      "005b3286-5edd-4887-ae32-7f326285f368"
+    ],
+    "currentFileId": "005b3286-5edd-4887-ae32-7f326285f368",
+    "resources": {
+      "ddbTesthiruTable": {
+        "name": "ddbTesthiruTable",
+        "type": "DynamoDB",
+        "config": {
+          "mode": 0,
+          "table": {
+            "arn": "",
+            "name": "TesthiruTable",
+            "partitionKey": "id",
+            "partitionKeyType": "S",
+            "hasSortKey": false,
+            "sortKey": "",
+            "sortKeyType": "S",
+            "payPerRequest": true,
+            "mode": 0
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.817.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.8",
+    "projectName": "1230_FinalSanity",
+    "projectDescription": "Test",
+    "projectVersion": "1.0.3",
+    "projectRegion": "ca-central-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1609319291352
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "1230_finalsanity",
+      "url": "https://github.com/HirudineeADRT/1230_finalsanity"
+    }
+  }
+}

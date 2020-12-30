@@ -1,0 +1,8 @@
+{
+  "name": "1230_FinalSanity",
+  "version": "1.0.3",
+  "dependencies": {},
+  "devDependencies": {
+    "aws-sdk": "2.817.0"
+  }
+}
