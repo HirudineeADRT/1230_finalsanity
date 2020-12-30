@@ -23,7 +23,16 @@
           "name": "1230FinalSanity"
         },
         "triggers": [],
-        "lastUpdated": 1609319245504
+        "lastUpdated": 1609322071867,
+        "testCases": {
+          "309af364-6b07-4f6c-8ed5-e979d9784813": {
+            "id": "309af364-6b07-4f6c-8ed5-e979d9784813",
+            "name": "Test event",
+            "functionId": "005b3286-5edd-4887-ae32-7f326285f368",
+            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "eventTemplate": "hello-world"
+          }
+        }
       }
     },
     "openFiles": [
@@ -83,11 +92,11 @@
     "projectName": "1230_FinalSanity",
     "projectDescription": "Test",
     "projectVersion": "1.0.3",
-    "projectRegion": "ca-central-1",
+    "projectRegion": "eu-west-1",
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1609319291352
+    "lastSave": 1609322093215
   },
   "VCS_STATE": {
     "provider": "GitHub",
